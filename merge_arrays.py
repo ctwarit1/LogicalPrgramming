@@ -26,8 +26,8 @@ def merge_array(x, y):
     print(x)
 
 
-# merge_array([0, 2, 0, 3, 0, 5, 6, 0, 0], [1, 8, 9, 10, 15])
-# merge_array([0, 30, 0, 60, 50, 0, 0], [10, 70, 40, 20])
+merge_array([0, 2, 0, 3, 0, 5, 6, 0, 0], [1, 8, 9, 10, 15])
+merge_array([0, 30, 0, 60, 50, 0, 0], [10, 70, 40, 20])
 
 """
 Given two sorted integer arrays, `X[]` and `Y[]` of size `m` and `n` each
@@ -59,4 +59,4 @@ def merge_sorted_arrays(list1, list2):
     return list1, list2
 
 
-print(merge_sorted_arrays([1, 4, 7, 8, 10], [2, 3, 9]))
+# print(merge_sorted_arrays([1, 4, 7, 8, 10], [2, 3, 9]))
